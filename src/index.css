@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts already loaded in index.html */
+
+/* CSS Variables */
+:root {
+  --bg-base: #030712;
+  --bg-surface: #0d1117;
+  --bg-elevated: #161b22;
+  --border-subtle: rgba(255,255,255,0.06);
+  --border-default: rgba(255,255,255,0.10);
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16,185,129,0.15);
+  --accent-crimson: #ef4444;
+  --accent-crimson-glow: rgba(239,68,68,0.12);
+  --accent-amber: #f59e0b;
+  --accent-blue: #3b82f6;
+  --text-primary: #f0f6fc;
+  --text-secondary: #8b949e;
+  --text-muted: #484f58;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Dot grid background pattern */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Radial glow */
+.radial-glow {
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(16,185,129,0.08), transparent);
+}
+
+/* Shimmer loading bar */
+.shimmer-bar {
+  background: linear-gradient(90deg,
+    rgba(255,255,255,0.03) 0%,
+    rgba(255,255,255,0.08) 50%,
+    rgba(255,255,255,0.03) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+/* Glassmorphism card */
+.glass-card {
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Glow effects */
+.glow-emerald { box-shadow: 0 0 20px rgba(16,185,129,0.2), 0 0 40px rgba(16,185,129,0.05); }
+.glow-crimson  { box-shadow: 0 0 20px rgba(239,68,68,0.2),  0 0 40px rgba(239,68,68,0.05); }
+.glow-blue     { box-shadow: 0 0 20px rgba(59,130,246,0.2),  0 0 40px rgba(59,130,246,0.05); }
+
+/* Text gradient */
+.text-gradient-emerald {
+  background: linear-gradient(135deg, #10b981, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animate slide-up for new messages */
+.animate-slide-up { animation: slideUp 0.3s ease-out; }
+
+/* Hide scrollbar for quick pills */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Line clamp utilities (Tailwind v3.3+ built-in, but ensure they work) */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* Placeholder color */
+textarea::placeholder, input::placeholder {
+  color: var(--text-muted);
+  opacity: 1;
+}
