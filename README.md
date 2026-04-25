@@ -125,7 +125,8 @@ That’s what makes it a **system, not just a chatbot**.
 ## 🖼️ Screenshots
 
 ### 💬 Member Interface 11
-![Chat UI](https://github.com/user-attachments/assets/9f00e048-6ce4-42c5-9dc0-4aa8686c04)
+![Chat UI](<img width="1023" height="488" alt="imagechatui" src="https://github.com/user-attachments/assets/95eea18e-a71f-4685-9711-95ee97bd305a" />
+
 
 ---
 
