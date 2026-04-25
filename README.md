@@ -183,8 +183,7 @@ npm run dev
 
 ## 👥 Team
 
-Built by **Team Xypheria**
-for the Innover Hackathon 🚀
+Built by Gurudev Kini and Team 
 
 ---
 
@@ -197,5 +196,3 @@ for the Innover Hackathon 🚀
 
 ## 🏁 Final Note
 This project was built in **24 hours**.
-
--
