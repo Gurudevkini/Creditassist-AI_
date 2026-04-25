@@ -124,8 +124,8 @@ That’s what makes it a **system, not just a chatbot**.
 
 ## 🖼️ Screenshots
 
-### 💬 Member Interface
-![Chat UI](https://github.com/user-attachments/assets/e267ee77-9a16-4f0e-9c99-1f3fa3a5f98e)
+### 💬 Member Interface 11
+![Chat UI](https://github.com/user-attachments/assets/9f00e048-6ce4-42c5-9dc0-4aa8686c04)
 
 ---
 
@@ -140,7 +140,7 @@ That’s what makes it a **system, not just a chatbot**.
 ---
 
 ### 🔍 Escalation / Conversation View
-![Conversation](https://github.com/user-attachments/assets/9f00e048-6ce4-42c5-9dc0-4aa8686c0411)
+![Conversation](https://github.com/user-attachments/assets/e267ee77-9a16-4f0e-9c99-1f3fa3a5f98e)
 
 ---
 
