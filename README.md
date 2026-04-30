@@ -1,5 +1,5 @@
 
-# 🚀 CreditAssist AI  
+#🚀 CreditAssist AI  
 
 <p align="center">
   <b>AI-powered member support system for credit unions</b><br/>
