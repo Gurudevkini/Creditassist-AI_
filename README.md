@@ -1,199 +1,212 @@
-
-#🚀 CreditAssist AI  
+# 🚀 CreditAssist AI
 
 <p align="center">
-  <b>AI-powered member support system for credit unions</b><br/>
-  Built in 24 hours • Designed like a real product • Not just a chatbot
+  <b>AI-powered member support system for credit unions</b><br>
 </p>
 
 <p align="center">
-  <a href="https://creditassist-ai.vercel.app/"><img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge" /></a>
-  <a href="https://github.com/Gurudevkini/Creditassist-AI_"><img src="https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge" /></a>
-  <img src="https://img.shields.io/badge/Hackathon-Xypheria%202026-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Build-24%20Hours-orange?style=for-the-badge" />
+  <a href="https://creditassist-ai.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Vercel-success?style=for-the-badge">
+  </a>
+
+  <a href="https://github.com/Gurudevkini/Creditassist-AI_">
+    <img src="https://img.shields.io/badge/📦_Repository-GitHub-black?style=for-the-badge">
+  </a>
+
 </p>
 
 ---
 
-## 📌 Table of Contents
-- [✨ Project Highlights](#-project-highlights)
-- [🧠 What This Actually Solves](#-what-this-actually-solves)
-- [⚙️ How It Works (Step by Step)](#️-how-it-works-step-by-step)
-- [🖼️ Screenshots](#️-screenshots)
-- [🧩 Tech Stack](#-tech-stack)
-- [📂 Folder Structure](#-folder-structure)
-- [🚀 Setup](#-setup)
-- [👥 Team](#-team)
+## 📖 Overview
+
+CreditAssist AI is an intelligent support platform designed for credit unions.
+
+Instead of relying solely on human agents, the system automatically resolves common member queries using a Retrieval-Augmented Generation (RAG) workflow while escalating sensitive or high-risk conversations to staff members with complete context.
+
+The goal is simple:
+
+- ⚡ Faster support
+- 🧠 Smarter assistance
+- 📉 Reduced manual workload
+- 🚨 Reliable escalation for critical cases
 
 ---
 
-## ✨ Project Highlights
+## ✨ Features
 
-- 💬 **Natural chat interface** — no forms, just talk  
-- 🧠 **AI + RAG system** — answers grounded in knowledge base  
-- ⚡ **Instant resolution** for simple queries  
-- 🚨 **Smart escalation** for risky / complex cases  
-- 📊 **Staff dashboard** — real-time case visibility  
-- 🔄 **End-to-end system** — not just a chatbot  
+### 💬 Conversational Member Support
 
-> Built to match real-world credit union workflows.
+- Natural language chat experience
+- No forms or complex workflows
+- Instant query handling
 
----
+### 🧠 RAG-Powered Responses
 
-## 🧠 What This Actually Solves
+- Retrieves answers from a knowledge base
+- Grounded responses instead of hallucinations
+- FAQ and policy-aware assistance
 
-Every support team faces the same issue:
+### 🚨 Smart Escalation Engine
 
-- Too many repeated questions  
-- Too much manual work  
-- Important cases getting delayed  
-
-**CreditAssist AI fixes that by:**
-- resolving simple queries instantly  
-- escalating complex ones with context  
-- reducing workload without losing control  
-
----
-
-## ⚙️ How It Works (Step by Step)
-
-### 🟢 Step 1 — Member asks naturally  
-User types: *“My card is blocked”*  
-
-No forms. No friction. Just a normal conversation.
-
----
-
-### 🔵 Step 2 — AI understands the request  
-- Intent detection  
-- Confidence scoring  
-- Decision: resolve or escalate  
-
----
-
-### 🧠 Step 3 — RAG retrieves knowledge  
-AI pulls from a mock credit union knowledge base:
-- policies  
-- FAQs  
-- procedures  
-
-> No guessing. Only grounded responses.
-
----
-
-### ⚡ Step 4 — Instant resolution  
-If the issue is simple:
-- answer is generated immediately  
-- user gets clear next steps  
-
----
-
-### 🚨 Step 5 — Risk detection  
-If something looks serious:
-- fraud keywords detected  
-- risk score assigned  
-- escalation triggered  
-
----
-
-### 📊 Step 6 — Staff dashboard  
-Support team sees:
-- resolved vs pending  
-- sentiment  
-- risk level  
-- full conversation  
-
----
-
-### 🧑‍💻 Step 7 — Human takeover  
-Staff can:
-- jump into conversation  
-- see full context  
-- resolve faster  
-
----
-
-### 🔄 Step 8 — Smart system loop  
-System balances:
-- automation ⚡  
-- human control 🧠  
-
-That’s what makes it a **system, not just a chatbot**.
-
----
-
-## 🖼️ Screenshots
-
-### 💬 Member Interface 11
-![Chat UI](<img width="1023" height="488" alt="imagechatui" src="https://github.com/user-attachments/assets/95eea18e-a71f-4685-9711-95ee97bd305a" />
-
-
----
-
-### 🧠 AI Resolution + RAG
-![AI Engine](https://github.com/user-attachments/assets/06720943-7fb1-4064-96b2-08e27e2d7aae)
-
----
+- Detects sensitive situations
+- Assigns risk levels
+- Automatically escalates complex cases
 
 ### 📊 Staff Dashboard
+
+- Pending vs Resolved cases
+- Risk monitoring
+- Conversation history
+- Support visibility
+
+### ⚡ Human-in-the-Loop Design
+
+- AI handles repetitive queries
+- Staff handles critical situations
+- Balanced automation
+
+---
+
+## ⚙️ System Workflow
+
+```text
+Member Query
+      │
+      ▼
+Intent Detection
+      │
+      ▼
+Confidence Evaluation
+      │
+ ┌────┴────┐
+ │         │
+ ▼         ▼
+RAG      Escalation
+Answer   Trigger
+ │         │
+ ▼         ▼
+Resolve   Staff Dashboard
+      │
+      ▼
+Conversation Tracking
+```
+
+## 📸 Screenshots
+
+### 💬 Member Chat Interface
+
+![Chat Interface](https://github.com/user-attachments/assets/95eea18e-a71f-4685-9711-95ee97bd305a)
+
+### 🧠 AI Resolution Engine
+
+![AI Engine](https://github.com/user-attachments/assets/06720943-7fb1-4064-96b2-08e27e2d7aae)
+
+### 📊 Staff Dashboard
+
 ![Dashboard](https://github.com/user-attachments/assets/1a326f23-6ee6-4c7a-9b3c-209e23a520d0)
 
----
+### 🚨 Escalation Management
 
-### 🔍 Escalation / Conversation View
-![Conversation](https://github.com/user-attachments/assets/e267ee77-9a16-4f0e-9c99-1f3fa3a5f98e)
-
----
-
-## 🧩 Tech Stack
-
-- ⚛️ Frontend: React / Next.js  
-- 🖥️ Backend: Node.js / Express  
-- 🧠 AI Layer: RAG (Retrieval-Augmented Generation)  
-- 📦 Data: Mock Knowledge Base  
-- ☁️ Hosting: Vercel  
+![Escalation](https://github.com/user-attachments/assets/e267ee77-9a16-4f0e-9c99-1f3fa3a5f98e)
 
 ---
 
-## 📂 Folder Structure
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Tailwind CSS
+- Vite
+
+### Backend
+
+- Node.js
+- Express.js
+
+### AI Layer
+
+- Retrieval-Augmented Generation (RAG)
+- Intent Classification
+- Risk Detection Logic
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📂 Project Structure
 
 ```bash
-Creditassist-AI/
+Creditassist-AI_
 │
-├── client/                # Frontend UI
-├── server/                # Backend logic
-├── knowledge-base/        # RAG data
-├── screenshots/           # Project visuals
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   └── assets/
+│
 ├── public/
-├── README.md
-└── package.json
-````
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+└── README.md
+```
 
 ---
 
-## 🚀 Setup
+## 🚀 Getting Started
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/Gurudevkini/Creditassist-AI_.git
+```
+
+Navigate into the project:
+
+```bash
 cd Creditassist-AI_
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Run locally:
+
+```bash
 npm run dev
 ```
 
 ---
 
-## 👥 Team
+## 👨‍💻 Team
 
-Built by Gurudev Kini and Team 
+Built with ❤️ at **Xypheria 2026 Hackathon**
+
+- Gurudev Kini
+- Team CreditAssist AI
 
 ---
 
 ## 🔗 Links
 
-* 🌐 Live Demo: [https://creditassist-ai.vercel.app/](https://creditassist-ai.vercel.app/)
-* 💻 GitHub: [https://github.com/Gurudevkini/Creditassist-AI](https://github.com/Gurudevkini/Creditassist-AI)_
+🌐 Live Demo  
+https://creditassist-ai.vercel.app/
+
+📦 GitHub Repository  
+https://github.com/Gurudevkini/Creditassist-AI_
 
 ---
 
-## 🏁 Final Note
-This project was built in **24 hours**.
+<p align="center">
+Built to demonstrate how AI can support—not replace—human support teams.
+</p>
